@@ -1,0 +1,16 @@
+.\obj\esp8266_public.o: app\esp8266\ESP8266_Public\esp8266_public.c
+.\obj\esp8266_public.o: app\esp8266\ESP8266_Public\esp8266_public.h
+.\obj\esp8266_public.o: .\Public\system.h
+.\obj\esp8266_public.o: .\CMSIS\stm32f10x.h
+.\obj\esp8266_public.o: .\CMSIS\core_cm3.h
+.\obj\esp8266_public.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\esp8266_public.o: .\CMSIS\system_stm32f10x.h
+.\obj\esp8266_public.o: .\Users\stm32f10x_conf.h
+.\obj\esp8266_public.o: .\StdPeriphDriver\inc\stm32f10x_flash.h
+.\obj\esp8266_public.o: .\CMSIS\stm32f10x.h
+.\obj\esp8266_public.o: .\StdPeriphDriver\inc\stm32f10x_fsmc.h
+.\obj\esp8266_public.o: .\StdPeriphDriver\inc\stm32f10x_gpio.h
+.\obj\esp8266_public.o: .\StdPeriphDriver\inc\stm32f10x_rcc.h
+.\obj\esp8266_public.o: .\StdPeriphDriver\inc\misc.h
+.\obj\esp8266_public.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\obj\esp8266_public.o: .\StdPeriphDriver\inc\stm32f10x_usart.h

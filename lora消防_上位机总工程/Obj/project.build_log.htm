@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: jokie leung, jokie, LIC=KRMKP-MJIGP-KBCER-KBEV8-WPZ1V-NSZ1F
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.21a
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DARMSTM.DLL V1.66.0.1
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TARMSTM.DLL V1.65.0.0
+ 
+<h2>Project:</h2>
+D:\Jokie\Study\互联网+\易斯达总工程\上位机总工程\project.uvproj
+Project File Date:  06/17/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'project'
+compiling sta_tcpclent_test.c...
+app\esp8266\STA_TCPClent_Test\sta_tcpclent_test.c(41): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *restrict"
+  		printf(rx_str);
+app\esp8266\STA_TCPClent_Test\sta_tcpclent_test.c(45): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *restrict"
+  		strcat(JSON,&rx_str[10+8]);
+app\esp8266\STA_TCPClent_Test\sta_tcpclent_test.c(49): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  		strcat(JSON,((strstr(rx_str,"latitude "))+9));//latitude_rx_str[9]);
+app\esp8266\STA_TCPClent_Test\sta_tcpclent_test.c(92): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *restrict"
+      strcat(JSON,&rx_str[8+8]);
+app\esp8266\STA_TCPClent_Test\sta_tcpclent_test.c(135): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *restrict"
+  		strcat(JSON,&rx_str[9+8]);
+app\esp8266\STA_TCPClent_Test\sta_tcpclent_test.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=14492 RO-data=1172 RW-data=88 ZI-data=2944  
+FromELF: creating hex file...
+".\Obj\project.axf" - 0 Error(s), 5 Warning(s).
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.\obj\usart.o: Public\usart.c
+.\obj\usart.o: Public\usart.h
+.\obj\usart.o: Public\system.h
+.\obj\usart.o: .\CMSIS\stm32f10x.h
+.\obj\usart.o: .\CMSIS\core_cm3.h
+.\obj\usart.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\usart.o: .\CMSIS\system_stm32f10x.h
+.\obj\usart.o: .\Users\stm32f10x_conf.h
+.\obj\usart.o: .\StdPeriphDriver\inc\stm32f10x_flash.h
+.\obj\usart.o: .\CMSIS\stm32f10x.h
+.\obj\usart.o: .\StdPeriphDriver\inc\stm32f10x_fsmc.h
+.\obj\usart.o: .\StdPeriphDriver\inc\stm32f10x_gpio.h
+.\obj\usart.o: .\StdPeriphDriver\inc\stm32f10x_rcc.h
+.\obj\usart.o: .\StdPeriphDriver\inc\misc.h
+.\obj\usart.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\usart.o: .\StdPeriphDriver\inc\stm32f10x_usart.h

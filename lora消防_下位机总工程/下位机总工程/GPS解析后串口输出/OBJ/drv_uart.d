@@ -1,0 +1,13 @@
+..\obj\drv_uart.o: ..\drv_mcu\src\drv_uart.c
+..\obj\drv_uart.o: ..\drv_mcu\inc\drv_uart.h
+..\obj\drv_uart.o: ..\STM32_FWLIB\inc\stm32f10x_rcc.h
+..\obj\drv_uart.o: ..\USER\stm32f10x.h
+..\obj\drv_uart.o: ..\CORE\core_cm3.h
+..\obj\drv_uart.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\drv_uart.o: ..\USER\system_stm32f10x.h
+..\obj\drv_uart.o: ..\USER\stm32f10x_conf.h
+..\obj\drv_uart.o: ..\STM32_FWLIB\inc\stm32f10x_gpio.h
+..\obj\drv_uart.o: ..\USER\stm32f10x.h
+..\obj\drv_uart.o: ..\STM32_FWLIB\inc\stm32f10x_rcc.h
+..\obj\drv_uart.o: ..\STM32_FWLIB\inc\stm32f10x_usart.h
+..\obj\drv_uart.o: ..\STM32_FWLIB\inc\misc.h

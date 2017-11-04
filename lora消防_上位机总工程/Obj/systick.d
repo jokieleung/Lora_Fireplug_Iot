@@ -1,0 +1,14 @@
+.\obj\systick.o: Public\SysTick.c
+.\obj\systick.o: Public\SysTick.h
+.\obj\systick.o: Public\system.h
+.\obj\systick.o: .\CMSIS\stm32f10x.h
+.\obj\systick.o: .\CMSIS\core_cm3.h
+.\obj\systick.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\systick.o: .\CMSIS\system_stm32f10x.h
+.\obj\systick.o: .\Users\stm32f10x_conf.h
+.\obj\systick.o: .\StdPeriphDriver\inc\stm32f10x_flash.h
+.\obj\systick.o: .\CMSIS\stm32f10x.h
+.\obj\systick.o: .\StdPeriphDriver\inc\stm32f10x_fsmc.h
+.\obj\systick.o: .\StdPeriphDriver\inc\stm32f10x_gpio.h
+.\obj\systick.o: .\StdPeriphDriver\inc\stm32f10x_rcc.h
+.\obj\systick.o: .\StdPeriphDriver\inc\misc.h
